@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twoje Imię - Portfolio Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+  <header class="hero">
+    <div class="dust">
+      <video id="background-video" src="Graphite_Dust_Cloud_Video_Generation.mp4" autoplay muted ></video>
+    </div>
+
+    <div class="profil"></div>
+    <div class="hero-content">
+      <h1 data-aos="fade-up" data-aos-duration="1000">
+        <span>Cześć, jestem [Szymon]</span>
+      </h1>
+      <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+        <span>Frontend Developer tworzący wydajne i estetyczne strony internetowe.</span>
+      </p>
+      <div class="call" data-aos="fade-up" data-aos-delay="1400" data-aos-duration="1000">
+      <a href="#projects" class="btn" id="btn" >
+        Zobacz projekty
+      </a>
+      </div>
+    </div>
+  </header>
+  </body>
+
+    <section id="about" class="section about-me">
+      <div class="container">
+        <h2 data-aos="fade-right">O mnie</h2>
+        <p data-aos="fade-left">
+          Jestem Frontend Developerem, który tworzy estetyczne i wydajne
+          strony internetowe. Skupiam się na kluczowych technologiach
+          frontendowych i używam nowoczesnych narzędzi, takich jak
+          <span class="highlight">React</span> czy
+          <span class="highlight">Vue</span>, aby budować dynamiczne aplikacje.
+        </p>
+        <p data-aos="fade-left" data-aos-delay="100">
+          W swojej pracy korzystam z narzędzi AI, takich jak <span class="highlight">Google Gemini</span> i
+          <span class="highlight">GitHub Copilot</span>. Dzięki nim piszę kod szybciej, znajduję lepsze
+          rozwiązania i utrzymuję jego wysoką jakość.
+        </p>
+        <p data-aos="fade-left" data-aos-delay="200">
+          Moim dodatkowym atutem jest znajomość trzech języków: <span class="highlight">polskiego</span>,
+          <span class="highlight">angielskiego</span> i <span class="highlight">niemieckiego</span>. Umożliwiło mi to realizowanie
+          małych projektów dla niemieckich firm, co wzbogaciło moje
+          doświadczenie o pracę w międzynarodowym środowisku.
+        </p>
+      </div>
+    </section>
+
+    <section id="process" class="section process">
+      <div class="container">
+        <h2 data-aos="fade-right">Mój Proces Tworzenia</h2>
+        <div class="process-grid">
+          <div class="process-card" data-aos="fade-up" data-aos-delay="100">
+            <i class="devicon-figma-plain colored process-icon"></i>
+            <h3>1. Design i Planowanie</h3>
+            <p>
+              Zaczynam od szkiców, makiet i prototypów. W tym etapie używam
+              narzędzi takich jak Figma, aby zaprojektować intuicyjny interfejs,
+              z dbałością o każdy szczegół i doświadczenia użytkownika.
+            </p>
+            <div class="skills-icons">
+              <i class="devicon-illustrator-plain colored"></i>
+              <i class="devicon-photoshop-plain colored"></i>
+              <i class="devicon-figma-plain colored"></i>
+            </div>
+          </div>
+
+          <div class="process-card" data-aos="fade-up" data-aos-delay="200">
+            <i class="devicon-html5-plain-wordmark colored process-icon"></i>
+            <h3>2. Kodowanie i Rozwój</h3>
+            <p>
+              Następnie przekładam projekt graficzny na czysty, wydajny kod.
+              Wykorzystuję najnowsze technologie, takie jak HTML, CSS,
+              JavaScript i popularne biblioteki (np. React, Vue), aby zbudować
+              solidną i dynamiczną aplikację.
+            </p>
+            <div class="skills-icons">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-react-original-wordmark colored"></i>
+              <i class="devicon-vuejs-plain-wordmark colored"></i>
+              <i class="devicon-typescript-plain colored"></i>
+              <i class="devicon-tailwindcss-plain colored"></i>
+            </div>
+          </div>
+
+          <div class="process-card" data-aos="fade-up" data-aos-delay="300">
+            <i
+              class="devicon-github-original-wordmark colored process-icon"
+            ></i>
+            <h3>3. Testy i Wdrożenie</h3>
+            <p>
+              Po napisaniu kodu, dokładnie testuję projekt pod kątem
+              responsywności i działania na różnych urządzeniach. Ostatecznie,
+              wdrażam projekt na serwerze, aby był dostępny dla wszystkich.
+            </p>
+            <div class="skills-icons">
+              <i class="devicon-github-original-wordmark colored"></i>
+              <i class="devicon-git-plain colored"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 data-aos="fade-right">Moje Projekty</h2>
+        <div class="project-grid">
+          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <a href="https://mokerowy.github.io/Canvesi/"><img
+              src="projectOne.webp"
+              alt="Main Page Canvesi"
+              class="project-img"
+            />
+            </a>
+            <div class="project-info">
+              <h3>Canvesi</h3>
+              <p>
+                Strona Firmowa wykonana w Vue.js z wykorzystaniem Canvas
+              </p>
+              <a href="https://mokerowy.github.io/Canvesi/" class="project-link">Zobacz demo</a>
+              <a href="https://github.com/mokerowy/Canvesi" class="project-link">Kod na GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <a href="https://mokerowy.github.io/SimpleDesign/"><img
+              src="Zrzut ekranu 2025-09-11 191548.webp"
+              alt="Projekt 2"
+              class="project-img"
+            />
+            </a>
+            <div class="project-info">
+              <h3>Simple</h3>
+              <p>Prosta strona wykonana w HTML i CSS.</p>
+              <a href="https://mokerowy.github.io/SimpleDesign/" class="project-link">Zobacz demo</a>
+              <a href="https://github.com/mokerowy/SimpleDesign" class="project-link">Kod na GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+            <a href="https://mokerowy.github.io/BoardGame/"><img
+              src="Zrzut ekranu 2025-09-11 191748.webp"
+              alt="Projekt 3"
+              class="project-img"
+            />
+            </a>
+            <div class="project-info">
+              <h3>BoardGame</h3>
+              <p>
+                Strona z grami planszowymi jeden z moich pierwszych projektów.
+              </p>
+              <a href="https://mokerowy.github.io/BoardGame/" class="project-link">Zobacz demo</a>
+              <a href="https://github.com/mokerowy/BoardGame" class="project-link">Kod na GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Copyright © 2025 [Twoje Imię]. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
