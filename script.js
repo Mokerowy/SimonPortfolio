@@ -19,12 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const dustContainer = document.querySelector(".dust");
 
   video.addEventListener("ended", () => {
-    // Ustawia przezroczystość na 0, co wywołuje przejście
+    
     dustContainer.style.opacity = "0";
 
-    // Opcjonalnie: całkowicie usuń element po zakończeniu przejścia
+
     setTimeout(() => {
       dustContainer.remove();
-    }, 1000); // Czas musi pasować do 'transition' w CSS
+    }, 1000); 
   });
 });
+
