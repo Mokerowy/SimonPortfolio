@@ -4,10 +4,10 @@
   margin: 0;
 }
 :root {
-  --primary-color: #5b84b1; /* Łagodny niebieski */
-  --secondary-color: #fc766a; /* Akcentowy koral */
-  --background-color: #f0f4f8; /* Jasne, chłodne tło */
-  --card-bg: #fff; /* Tło dla kart/kontenerów */
+  --primary-color: #5b84b1;
+  --secondary-color: #fc766a; 
+  --background-color: #f0f4f8; 
+  --card-bg: #fff; 
   --text-color: #333;
 }
 
@@ -59,7 +59,7 @@ h3 {
   color: #ff6557;
 }
 
-/* Ogólne style dla sekcji */
+
 .section {
   padding: 100px 0;
 }
@@ -84,15 +84,15 @@ h3 {
   border-radius: 2px;
 }
 
-/* --- Sekcja Hero --- */
+
 .hero {
-  position: relative; /* Umożliwia pozycjonowanie absolutne dzieci */
+  position: relative; 
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  overflow: hidden; /* Zapobiega przewijaniu, jeśli wideo jest większe */
+  overflow: hidden; 
 }
 .hero-content {
   padding: 0 20px;
@@ -103,10 +103,10 @@ h3 {
   margin-bottom: 10px;
   font-weight: 700;
   color: #fff;
-  /* Zastosowanie animacji z opóźnieniem */
+
   animation-name: textColorChange;
   animation-duration: 3s;
-  animation-delay: 2s; /* To opóźnia animację o 2 sekundy */
+  animation-delay: 2s; 
   animation-fill-mode: forwards;
 }
 
@@ -118,8 +118,8 @@ h3 {
   left: 0;
   pointer-events: none;
   z-index: -1;
-  opacity: 1; /* Początkowa przezroczystość */
-  transition: opacity 1s ease-out; /* Płynne przejście przez 1 sekundę */
+  opacity: 1; 
+  transition: opacity 1s ease-out; 
 }
 
 .dust video {
@@ -146,7 +146,7 @@ h3 {
   font-weight: 400;
 }
 
-/* --- Sekcja "O mnie" --- */
+
 .about-me {
   overflow-x: hidden;
   background-color: var(--card-bg);
@@ -167,7 +167,7 @@ h3 {
   color: var(--secondary-color);
 }
 
-/* --- Sekcja "Proces Tworzenia" --- */
+
 .process {
   background-color: var(--background-color);
 }
@@ -212,7 +212,7 @@ h3 {
   margin-bottom: 20px;
 }
 
-/* --- Sekcja "Projekty" --- */
+
 .projects {
   background-color: var(--background-color);
 }
@@ -272,7 +272,7 @@ h3 {
   color: var(--secondary-color);
 }
 
-/* --- Ikony i obrazy --- */
+
 .skills-icons {
   display: flex;
   justify-content: center;
@@ -299,11 +299,11 @@ h3 {
   opacity: 0;
   animation-name: profilVisibility;
   animation-duration: 9s;
-  animation-delay: 6s; /* To opóźnia animację o 6 sekund */
+  animation-delay: 6s; 
   animation-fill-mode: forwards;
 }
 
-/* --- Stopka --- */
+
 .footer {
   text-align: center;
   padding: 30px 0;
@@ -312,7 +312,6 @@ h3 {
   font-size: 0.9rem;
 }
 
-/* --- Responsywność --- */
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2.8rem;
@@ -351,20 +350,21 @@ h3 {
   }
 }
 
-/* Definiujemy animację, która zmienia kolor z białego na grafitowy */
+
 @keyframes textColorChange {
   from {
-    color: #fff; /* Kolor początkowy */
+    color: #fff; 
   }
   to {
-    color: #36454f; /* Grafitowy (np. 36454F) */
+    color: #36454f; 
   }
 }
 @keyframes profilVisibility {
   from {
-    opacity: 0; /* Kolor początkowy */
+    opacity: 0; 
   }
   to {
-    opacity: 1; /* Grafitowy (np. 36454F) */
+    opacity: 1; 
   }
 }
+
